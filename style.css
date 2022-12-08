@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+}
+
+ul {
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.button {
+    width: 240px;
+    height: 60px;
+    background-color: #252525;
+    color: #FB37FF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    z-index: 1;
+}
+
+/* Курсы */
+header {
+    background-color: #252525;
+    height: 200px;
+    z-index: 100;
+}
+
+.header__topmenu {
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    color: #FFFFFF;
+    padding-top: 27px;
+}
+
+.header__topmenu a {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__topmenu p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.messengers {
+    justify-content: space-between;
+    width: 225px;
+
+}
+
+.header__mainmenu {
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-top: 40px;
+}
+
+.header__mainmenu--list {
+    justify-content: space-between;
+    width: 420px;
+    list-style: none;
+}
+
+.header__mainmenu--list a {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Страница все курсы */
+.courses {
+    height: 1365px;
+}
+
+.courses__block--center {
+    align-items: center;
+    height: 1365px;
+}
+
+.courses__block--rows {
+    display: grid;
+    grid-gap: 100px;
+}
+
+.courses__item h2 {
+    margin-bottom: 50px;
+}
+
+.courses__item--coloumns {
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 87px;
+    height: 270px;
+}
+
+.courses__item--rows {
+    grid-template-rows: 2fr 1fr;
+    align-content: space-between;
+    height: 270px;
+}
+
+.courses__item--rows p {
+    width: 714px;
+}
+
+
+
+/* Курс Главный баннер */
+.cours__mainbanner {
+    height: 570px;
+    background-color: #252525;
+    
+} 
+
+.cours__mainbanner--background {
+    position: relative;
+    height: 575px;
+}
+
+.cours__mainbanner--image {
+    position: absolute;
+    left: 230px;
+    z-index: 1;
+    height: 570px;
+}
+
+.cours__mainbanner--description {
+    z-index: 100;
+    position: absolute;
+}
+
+.cours__mainbanner--description h1 {
+    color: #FB37FF;
+}
+
+.cours__mainbanner--description span {
+    color: #FFE3B3;
+}
+
+.cours__mainbanner--description p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+/* Курс Преимущества */
+
+
+.benefit {
+    height: 764px;
+}
+
+.benefit__block h2 {
+    margin-bottom: 100px;
+}
+
+.benefit__block--center {
+    align-items: center;
+    height: 764px;
+}
+
+.benefit__items {
+    justify-content: space-between;
+    gap: 140px;
+    margin-bottom: 50px;
+}
+
+.benefit__block--item p {
+    margin-left: 37px;
+    width: 340px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+/* Курс Преподаватель */
+.teacher {
+    height: 582px;
+    background-color: #252525;
+}
+
+.teacher__block {
+    align-items: center;
+    justify-content: space-between;
+    height: 582px;
+}
+
+.teacher__item--left h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.teacher__item--left h3 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+.teacher__item--left p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+/* Курс Расписание */
+.timetable {
+    height: 1111px;
+}
+
+.timetable__block--center {
+    align-items: center;
+    height: 1111px;
+    
+}
+
+.timetable__block--grid {
+    grid-template-columns: 1fr 3fr;
+    margin-top: 100px;
+    grid-gap: 50px;
+}
+
+.timetable__block--center h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.timetable__block--grid p {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #990099;
+}
+
+.timetable__block--right li {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+}
+
+/* Курс записаться */
+.form__background {
+    background-color: #252525;
+    height: 600px;
+    
+}
+
+.form__background p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FB37FF;
+}
+
+.form__background p span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFE3B3;
+}
+
+.form__block {
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.form__feild {
+    grid-gap: 50px;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.form__input {
+    width: 659px;
+    height: 60px;
+    background-color: #252525;
+    border: 1px solid #FB37FF;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+
+.button-border--pink {
+    border: 1px solid #FB37FF;
+    box-shadow: 0 0 10px #FB37FF;
+}
+
+.button:hover {
+    background-color: #252525;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.form__button {
+    gap: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    position: absolute;
+    left: 35px;
+    top: 15px;
+}
+
+/* Футер */
+footer {
+    height: 266px;
+    background-color: #252525;
+}
+
+.footer__columns {
+    justify-content: space-between;
+    align-items: center;
+    height: 266px;
+}
+
+.footer__columns--left {
+    gap: 20px;
+    height: 156px;
+    list-style: none;
+}
+
+.footer__columns--left a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.footer__columns--right {
+    gap: 50px;
+    height: 156px;
+    
+}
+
+.footer__columns--right p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: right;
+}
